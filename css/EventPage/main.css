@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.event01-main-section {
+    border: 1px solid black;
+    padding: 1em;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-event01-section {
+    width: 70%;
+}
+
+.title-event01{
+    font-size: 2.0rem;
+    font-weight: bold;
+    padding: 1em;
+    color: white;
+}
+
+.event01-poster > img {
+ padding: 1em;
+}
+
+.event-description{
+    padding: 1em;
+}
+
+.event-description-info {
+    color: #a873dc;
+    font-size: 1.3rem;
+    padding: 1em;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.event-description-info > div {
+    padding: 0em 1em;
+    display: flex;
+}
+
+.event-description-info > div > i {
+    margin: 0 0.5em;
+}
+
+.lineup-highlights {
+    color: white;
+    padding: 1em;
+}
+
+.lineup-highlights > p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1em;
+}
+
+.lineup-highlights > ul {
+    padding: 1em;
+}
+
+.lineup-highlights > ul > li{
+    padding: 0.5em;
+    font-size: 1.2rem;
+    list-style-position: inside;
+}
+
+.what-expect-section {
+    padding: 1em;
+    color: white;
+}
+
+.what-expect-section > p {
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.what-expect-section > ul {
+    padding: 1em;
+}
+
+.what-expect-section > ul > li{
+    padding: 0.5em;
+    font-size: 1.2rem;
+    list-style-position: inside;
+}
+
+.expect-images {
+    display: flex;
+    padding: 1em;
+}
+
+.expect-images > img {
+    width: 100%;
+    margin: 0.5em;
+    border-radius: 4px;
+}
+
+
+.aside-buy-ticket {
+    background-color: #1e2b46;
+    width: 30%;
+    position: sticky;
+    top: 10%;
+    border-radius: 4px;
+}
+
+.aside-buy-ticket > form {
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-buy-ticket > form > p {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.aside-buy-ticket > form > label {
+    padding: 1em 0;
+    font-size: 1.2rem;
+}
+
+.aside-buy-ticket > form > input {
+    padding: 0.8em;
+}
+
+.total-price{
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.aside-buy-ticket > form > button {
+    background-color: #9333ea;
+    border: 0;
+    color: white;
+    padding: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.share-event p{
+    padding: 0 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.share-icons {
+    padding: 0.5em;
+}
+
+.share-icons i{
+    color: #9333ea;
+    margin: 0.5em;
+    font-size: 1.3rem;
+}
+
+.event-description-info-p {
+    color: white;
+    padding: 1.5em;
+    font-size: 1.2rem;
+    line-height: 1.8em;
+}
+
+@media only screen and (max-width: 1250px) {
+    .about-event01-section {
+        width: 100%;
+    }
+
+    .aside-buy-ticket {
+        width: 100%;
+    }
+
+    .expect-images {
+        display: flex;
+        padding: 1em;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .expect-images > img {
+        width: 45%;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    
+    .expect-images > img {
+        width: 90%;
+    }
+
+    .event-description-info {
+        color: #a873dc;
+        font-size: 1.2rem;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event-description-info > div {
+        padding: 0.5em;
+        display: flex;
+    }
+    
+    .what-expect-section {
+        padding: 0 1em;
+        color: white;
+    }
+    
+    .what-expect-section > p {
+        padding: 0 1em;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .what-expect-section > ul {
+        padding:  1em;
+    }
+    
+    .what-expect-section > ul > li{
+        padding: 0.5em;
+        font-size: 1.2rem;
+        list-style-position: inside;
+    }
+   
+}

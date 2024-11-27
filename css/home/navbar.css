@@ -49,9 +49,10 @@
     color:#9333ea;
 }
 
-.navbar > ul > li > a:active {
+.navbar > ul > li > .color-active {
     color: #9333ea;
 }
+
 
 .responsive-menu {
     display: none;

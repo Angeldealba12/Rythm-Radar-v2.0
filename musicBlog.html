@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/home/navbar.css" />
+    <link rel="stylesheet" href="./css/home/footer.css" />
+    <link rel="stylesheet" href="./css/home/universal.css" />
+    <link rel="stylesheet" href="./css/Music Blog/main.css" />
+    <link rel="stylesheet" href="./css/home/stay-in-tune.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2c7412deb9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Music Blog</title>
+  </head>
+  <body>
+    <!-- Navegation bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-music"></i><a href="./index.html">Rhythm Radar</a>
+      </div>
+      <ul>
+        <li><a href="./eventsPage.html">Events</a></li>
+        <li><a class="color-active" href="./musicBlog.html">Music Blog</a></li>
+        <li><a href="./merchandising.html">Mechardising</a></li>
+        <li><a href="./AboutUs.html">About Us</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+      </ul>
+      <div class="ham-menu" id="ham-menu" onclick="myFunction()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="responsive-menu" id="responsive-menu">
+        <ul>
+          <li class="animate__bounceIn">
+            <a href="./eventsPage.html">Events</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./musicBlog.html">Music Blog</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./merchandising.html">Mechardising</a>
+          </li>
+          <li class="animate__bounceIn">
+            <a href="./AboutUs.html">About Us</a>
+          </li>
+          <li class="animate__bounceIn"><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Music Blog Section -->
+    <section class="music-blog-section">
+      <h1>Music Blog</h1>
+      <main>
+        <form class="music-blog-form">
+          <h2>Share Your Thoughts</h2>
+          <textarea name="post" placeholder="What's on your mind?"></textarea>
+          <div class="form-buttoms">
+            <button class="add-image-btn">Add Image</button>
+            <button class="post-btn" type="submit">Post</button>
+          </div>
+        </form>
+        <div class="comment-cards">
+          <div class="comment-card">
+            <div class="comment-card-user-info">
+              <img src="./img/user01.jpg" alt="user-icon" />
+              <div>
+                <h3>Laura Mariana</h3>
+                <p>Posted 3 hours ago</p>
+              </div>
+            </div>
+            <p class="comment-description">
+              I just had an amazing experience at Neon light Festival, I
+              recommend everyone to go, me and my boyfriend just loved it!!!
+              #SummerVibes #MusicFestival
+            </p>
+            <div class="user-picture-updaload">
+              <img src="./img/user01-01.jpg" alt="user-picture-updaload" />
+              <img src="./img/user01-02.jpg" alt="user-picture-updaload" />
+            </div>
+            <div class="like-comment-share">
+              <div>
+                <i class="fa-regular fa-heart"></i>
+                <p>Like</p>
+              </div>
+              <div>
+                <i class="fa-regular fa-comment"></i>
+                <p>Comment</p>
+              </div>
+              <div>
+                <i class="fa-regular fa-share-from-square"></i>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside class="aside-content">
+        <div class="trending-topic">
+          <h2>Trending Topics</h2>
+          <p>#SummerFestivals</p>
+          <p>#NewReleases</p>
+          <p>#ConcertMemories</p>
+          <p>#IndieArtists</p>
+          <p>#MusicTheory</p>
+        </div>
+
+        <div class="playlists">
+          <h2>Featured Playlists</h2>
+          
+        </div>
+      </aside>
+    </section>
+
+     <!-- Stay in Tune Section -->
+     <section class="stay-in-tune" id="stay-in-tune-section">
+        <p>Stay in tune</p>
+        <p>
+          Subscribe to our newsletter for exclusive presale access and the latest
+          event updates.
+        </p>
+        <form>
+          <input type="text" placeholder="Enter your email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+  
+
+    <!-- Footer -->
+    <footer class="footer" id="stay-in-tune-section">
+      <div class="footer-block">
+        <p>Company</p>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer-block">
+        <p>Support</p>
+        <a href="#">Help Center</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Ticket info</a>
+      </div>
+      <div class="footer-block">
+        <p>Legal</p>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+      <div class="footer-block">
+        <p>Connect</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <div class="copy-footer">
+        <p>&copy; 2024 Rhythm Radar. All rights reserved. Angel De Alba</p>
+      </div>
+    </footer>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>

@@ -250,7 +250,7 @@ const eventsList = [
   },
 ];
 
-let homePageEvents = eventsList.slice(0, 3);
+let homePageEvents = eventsList.slice(0, 4);
 
 for (let i = 0; i < homePageEvents.length; i++) {
   let homePageEventsData = homePageEvents[i];

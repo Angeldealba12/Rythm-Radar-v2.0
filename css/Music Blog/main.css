@@ -1,0 +1,155 @@
+.music-blog-section {
+    padding: 1em;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.music-blog-section h1 {
+    color: white;
+    padding: 1em;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.music-blog-section>main {
+    padding: 1em;
+    width: 60%;
+}
+
+.music-blog-form {
+    background-color: indigo;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.music-blog-form>h2 {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5em;
+}
+
+.music-blog-form textarea {
+    padding: 2em;
+    width: 100%;
+    background-color: rgba(180, 186, 237, 0.715);
+    border: 0;
+    border-radius: 0.5em;
+}
+
+.music-blog-form>.form-buttoms {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttoms>.add-image-btn {
+    padding: 1em;
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid blueviolet;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.form-buttoms>.add-image-btn:hover {
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid rgb(102, 63, 139);
+}
+
+.form-buttoms>.post-btn {
+    padding: 1em;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid rgb(102, 63, 139);
+    font-size: 1rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.comment-cards {
+    padding: 1em;
+    background-color: indigo;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
+
+.comment-card {
+    background-color: rgba(180, 186, 237, 0.715);
+    border-radius: 0.5em;
+}
+
+.comment-card-user-info {
+    display: flex;
+    padding: 1em;
+}
+
+.comment-card-user-info>img {
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(69, 35, 93);
+}
+
+.comment-card-user-info>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.comment-description {
+    padding: 1em;
+}
+
+.user-picture-updaload {
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.user-picture-updaload>img {
+    width: 45%;
+    border-radius: 0.5rem;
+}
+
+.like-comment-share {
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.like-comment-share>div {
+    display: flex;
+    width: 15%;
+    padding: 0.5em;
+    justify-content: space-evenly;
+    align-items: center;
+    color: indigo;
+    cursor: pointer;
+}
+
+.aside-content {
+    width: 35%;
+    background-color: indigo;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+}
+
+.trending-topic {
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgba(180, 186, 237, 0.715);
+}
+
+.trending-topic > p {
+    margin-top: 1em;
+    font-size: 1.2rem;
+}

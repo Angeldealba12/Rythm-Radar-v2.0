@@ -34,17 +34,17 @@ document.getElementById('event01-section').innerHTML = `
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="./img/poster-${neon.id}.jpg" style="width: 100%" />
+            <img src="../img/poster-${neon.id}.jpg" style="width: 100%" />
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" style="width: 100%" />             
+            <img src="../img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" style="width: 100%" />             
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" style="width: 100%" />          
+            <img src="../img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" style="width: 100%" />          
           </div>
 
           <!-- Next and previous buttons -->
@@ -90,10 +90,10 @@ document.getElementById('event01-section').innerHTML = `
           ${neon.whatToExpect.map(item => `<li>${item}</li>`).join('')}
         </ul>
         <div class="expect-images">
-          <img src="./img/Neon Sounds Festival 2024/neon-01.jpg" alt="" />
-          <img src="./img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" alt="" />
-          <img src="./img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" alt="" />
-          <img src="./img/Neon Sounds Festival 2024/neon-04.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/neon-01.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/neon-04.jpg" alt="" />
         </div>
       </div>
     </div>

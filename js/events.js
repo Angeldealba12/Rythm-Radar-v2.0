@@ -261,7 +261,7 @@ for (let i = 0; i < homePageEvents.length; i++) {
     src="./img/poster-${homePageEventsData.id}.jpg"
     alt="${homePageEventsData.name}"
   />
-  <a href="./${homePageEventsData.shortName}.html" class="card-event-title">${homePageEventsData.name}</a>
+  <a href="./event-pages/${homePageEventsData.shortName}.html" class="card-event-title">${homePageEventsData.name}</a>
   <div class="card-event-location">
     <p>${homePageEventsData.date}</p>
     <i class="fas fa-circle"></i>
@@ -269,7 +269,7 @@ for (let i = 0; i < homePageEvents.length; i++) {
   </div>
   <div class="events-card-tickets">
     <p>$${homePageEventsData.price}</p>
-    <a class="button" href="./${homePageEventsData.shortName}.html">Tickets</a>
+    <a class="button" href="./event-pages/${homePageEventsData.shortName}.html">Tickets</a>
   </div>
 </div>
   `;

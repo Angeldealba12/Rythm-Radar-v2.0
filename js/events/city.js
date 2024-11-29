@@ -1,32 +1,32 @@
-const blues = {
-    id: 5,
-    name: "Blues & Brews",
-    shortName: "blues",
-    location: "Memphis, Tennessee",
-    date: "2025-09-15",
-    price: 75.0,
+const city =  {
+    id: 10,
+    name: "City Vibes Weekend",
+    shortName: "city",
+    location: "New York, New York",
+    date: "2025-08-10",
+    price: 100.0,
     description:
-        "A soulful celebration of blues music paired with local craft beer.",
-    gatesOpen: "2:00 PM",
+        "A dynamic urban festival showcasing city soundscapes and street culture.",
+    gatesOpen: "10:00 AM",
     lineupHighlights: [
-        "Delta Rhythm Kings",
-        "Memphis Blues Band",
-        "Soul Strings",
-        "The Guitar Legends",
-        "Harmonica Blues",
+        "Urban Symphony",
+        "City Beats Crew",
+        "Downtown Funk",
+        "Skyline Rhythms",
+        "Metropolitan DJ",
     ],
     whatToExpect: [
-        "Live Blues Sets: Non-stop blues music from top artists.",
-        "Beer Tastings: Sample local and regional brews.",
-        "Blues History Talks: Learn about the origins and legacy of blues.",
-        "BBQ Feast: Enjoy Memphis-style barbecue with your brews.",
-        "Artisan Vendors: Handcrafted items inspired by blues culture.",
+        "Street Performances: Live music and dance acts in unique city spots.",
+        "Food Markets: Iconic NYC street food.",
+        "Urban Art Tours: Graffiti and mural exhibitions.",
+        "Cocktail Stations: Mixology pop-ups around the venue.",
+        "Photo Walks: Guided tours capturing the city's spirit.",
     ],
 }
 
 document.getElementById('event01-section').innerHTML = `
 <div class="about-event01-section" >
-      <p class="title-event01">${blues.name}</p>
+      <p class="title-event01">${city.name}</p>
       <div class="event01-poster">
 
         <!-- Slideshow container -->
@@ -34,17 +34,17 @@ document.getElementById('event01-section').innerHTML = `
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="./img/poster-${blues.id}.jpg" style="width: 100%" />
+            <img src="../img/poster-${city.id}.jpg" style="width: 100%" />
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./img/Blues & Brews Festival 2025/blues-02.jpg" style="width: 100%" />             
+            <img src="../img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" style="width: 100%" />             
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./img/Blues & Brews Festival 2025/blues-03.jpg" style="width: 100%" />          
+            <img src="../img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" style="width: 100%" />          
           </div>
 
           <!-- Next and previous buttons -->
@@ -63,37 +63,37 @@ document.getElementById('event01-section').innerHTML = `
         <div class="event-description-info">
           <div>
             <i class="fa-regular fa-calendar"></i>
-            <p>${blues.date}</p>
+            <p>${city.date}</p>
           </div>
           <div>
             <i class="fa-solid fa-location-dot"></i>
-            <p>${blues.location}</p>
+            <p>${city.location}</p>
           </div>
           <div>
             <i class="fa-regular fa-clock"></i>
-            <p>Gates open at ${blues.gatesOpen}</p>
+            <p>Gates open at ${city.gatesOpen}</p>
           </div>
         </div>
         <p class="event-description-info-p">
-          ${blues.description}
+          ${city.description}
         </p>
       </div>
       <div class="lineup-highlights">
         <p>Lineup Highlights</p>
         <ul>
-          ${blues.lineupHighlights.map(artist => `<li>${artist}</li>`).join('')}
+          ${city.lineupHighlights.map(artist => `<li>${artist}</li>`).join('')}
         </ul>
       </div>
       <div class="what-expect-section">
         <p>What to Expect</p>
         <ul>
-          ${blues.whatToExpect.map(item => `<li>${item}</li>`).join('')}
+          ${city.whatToExpect.map(item => `<li>${item}</li>`).join('')}
         </ul>
         <div class="expect-images">
-          <img src="./img/Blues & Brews Festival 2025/blues-01.jpg" alt="" />
-          <img src="./img/Blues & Brews Festival 2025/blues-02.jpg" alt="" />
-          <img src="./img/Blues & Brews Festival 2025/blues-03.jpg" alt="" />
-          <img src="./img/Blues & Brews Festival 2025/blues-04.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/neon-01.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/neon-04.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@ document.getElementById('event01-section').innerHTML = `
         <input type="number" />
         <div class="total-price">
           <p>Total:</p>
-          <p>$${blues.price}</p>
+          <p>$${city.price}</p>
         </div>
         <button type="submit">Buy Tickets</button>
       </form>

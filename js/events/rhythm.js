@@ -1,32 +1,32 @@
-const mountain = {
-    id: 3,
-    name: "Mountain Echoes Fest",
-    shortName: "mountain",
-    location: "Denver, Colorado",
-    date: "2025-08-22",
-    price: 150.0,
+const rhythm = {
+    id: 6,
+    name: "Rhythm & Roots Festival",
+    shortName: "rhythm",
+    location: "Nashville, Tennessee",
+    date: "2025-10-10",
+    price: 90.0,
     description:
-        "An immersive alpine music experience celebrating nature and sound.",
-    gatesOpen: "12:00 PM",
+        "A homage to country music roots blended with contemporary sounds.",
+    gatesOpen: "11:00 AM",
     lineupHighlights: [
-        "Forest Vibes",
-        "Peak Harmonies",
-        "Soundscape Collective",
-        "The Summit Lights",
-        "DJ Frost",
+        "Southern Strings",
+        "Heartland Harmony",
+        "Golden Banjos",
+        "Fiddle Frenzy",
+        "The Lyrical Lights",
     ],
     whatToExpect: [
-        "Nature Trails: Explore scenic hiking routes during the day.",
-        "Acoustic Sets: Intimate performances on smaller stages.",
-        "Eco Workshops: Learn about sustainability and conservation.",
-        "Bonfire Nights: Gather around for storytelling and live music.",
-        "Craft Beer: Colorado's finest breweries on tap.",
+        "Line Dancing: Join group dances with professional instructors.",
+        "Food Trucks: Southern comfort food to fuel your day.",
+        "Vintage Market: Browse unique finds and music memorabilia.",
+        "Meet & Greets: Opportunities to meet select artists.",
+        "Kids' Zone: Family-friendly activities and games.",
     ],
 }
 
 document.getElementById('event01-section').innerHTML = `
 <div class="about-event01-section" >
-      <p class="title-event01">${mountain.name}</p>
+      <p class="title-event01">${rhythm.name}</p>
       <div class="event01-poster">
 
         <!-- Slideshow container -->
@@ -34,17 +34,17 @@ document.getElementById('event01-section').innerHTML = `
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="./img/poster-${mountain.id}.jpg" style="width: 100%" />
+            <img src="../img/poster-${rhythm.id}.jpg" style="width: 100%" />
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" style="width: 100%" />             
+            <img src="../img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" style="width: 100%" />             
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" style="width: 100%" />          
+            <img src="../img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" style="width: 100%" />          
           </div>
 
           <!-- Next and previous buttons -->
@@ -63,37 +63,37 @@ document.getElementById('event01-section').innerHTML = `
         <div class="event-description-info">
           <div>
             <i class="fa-regular fa-calendar"></i>
-            <p>${mountain.date}</p>
+            <p>${rhythm.date}</p>
           </div>
           <div>
             <i class="fa-solid fa-location-dot"></i>
-            <p>${mountain.location}</p>
+            <p>${rhythm.location}</p>
           </div>
           <div>
             <i class="fa-regular fa-clock"></i>
-            <p>Gates open at ${mountain.gatesOpen}</p>
+            <p>Gates open at ${rhythm.gatesOpen}</p>
           </div>
         </div>
         <p class="event-description-info-p">
-          ${mountain.description}
+          ${rhythm.description}
         </p>
       </div>
       <div class="lineup-highlights">
         <p>Lineup Highlights</p>
         <ul>
-          ${mountain.lineupHighlights.map(artist => `<li>${artist}</li>`).join('')}
+          ${rhythm.lineupHighlights.map(artist => `<li>${artist}</li>`).join('')}
         </ul>
       </div>
       <div class="what-expect-section">
         <p>What to Expect</p>
         <ul>
-          ${mountain.whatToExpect.map(item => `<li>${item}</li>`).join('')}
+          ${rhythm.whatToExpect.map(item => `<li>${item}</li>`).join('')}
         </ul>
         <div class="expect-images">
-          <img src="./img/Neon Sounds Festival 2024/neon-01.jpg" alt="" />
-          <img src="./img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" alt="" />
-          <img src="./img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" alt="" />
-          <img src="./img/Neon Sounds Festival 2024/neon-04.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/neon-01.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/_3d4f3093-dc43-466e-8976-f67586bff9e2.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/_5114efa0-9db6-49aa-8319-4e3a662cd6cf.jpg" alt="" />
+          <img src="../img/Neon Sounds Festival 2024/neon-04.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@ document.getElementById('event01-section').innerHTML = `
         <input type="number" />
         <div class="total-price">
           <p>Total:</p>
-          <p>$${mountain.price}</p>
+          <p>$${rhythm.price}</p>
         </div>
         <button type="submit">Buy Tickets</button>
       </form>

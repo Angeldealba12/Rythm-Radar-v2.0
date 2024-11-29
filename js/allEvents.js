@@ -257,15 +257,15 @@ for (let i = 0; i < eventsList.length; i++) {
 
     document.getElementById("all-events-container").innerHTML += `
         <div class="card-all-event">
-                    <img src="./img/poster-${allEvents.id}.jpg" alt="${allEvents.name}" />
-                    <a href="./${allEvents.shortName}.html" class="card-all-event-title">${allEvents.name}</a>
+                    <img src="../img/poster-${allEvents.id}.jpg" alt="${allEvents.name}" />
+                    <a href="../event-pages/${allEvents.shortName}.html" class="card-all-event-title">${allEvents.name}</a>
                     <div class="card-all-event-location">
                       <p>${allEvents.date}</p>
                       <p>${allEvents.location}</p>
                     </div>
                     <div class="events-card-tickets">
                       <p>$${allEvents.price}</p>
-                      <a href="./${allEvents.shortName}.html" class="button">Tickets</a>
+                      <a href="../event-pages/${allEvents.shortName}.html" class="button">Tickets</a>
                     </div>
                   </div>
                 </div>

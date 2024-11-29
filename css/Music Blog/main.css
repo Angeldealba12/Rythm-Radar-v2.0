@@ -81,6 +81,7 @@
 .comment-card {
     background-color: rgba(180, 186, 237, 0.715);
     border-radius: 0.5em;
+    margin-top: 1em;
 }
 
 .comment-card-user-info {

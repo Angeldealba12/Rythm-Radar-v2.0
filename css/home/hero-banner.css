@@ -1,0 +1,50 @@
+.hero-banner {
+    background-image: url(../../img/_a4975661-f1bb-4efd-8bc0-f0464a8b94de.jpg);
+    background-position: center;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-banner p {
+    margin-bottom: 1em;
+}
+
+.hero-banner-title {
+    font-size: 5em;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 1em 0 1em;
+    padding: 0.5em;
+    text-shadow: 2px 2px 2px;
+    background: linear-gradient(to right, #8c00ff, #ff4bb4);
+            background-clip: text;
+            color: transparent;
+    text-shadow: 2px 2px 2px transparent;
+}
+
+.hero-banner-description{
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.hero-banner button {
+    border: 0;
+    background-color: #9333EA;
+    padding: 1em;
+    font-size: 0.8em;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 2em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+

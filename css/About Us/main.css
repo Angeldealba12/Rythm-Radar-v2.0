@@ -1,0 +1,58 @@
+.about-us-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: rgb(49, 34, 60);
+}
+
+.about-us-section img {
+    width: 80%;
+}
+
+.about-us-description {
+    width: 60%;
+}
+
+.about-us-description h1 {
+    padding: 1em;
+    font-size: 2rem;
+    color: white;
+}
+
+.about-us-description p {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 2em;
+    padding: 1em;
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .about-us-section {
+        flex-direction: column;
+    }
+    
+    .about-us-section img {
+        width: 100%;
+    }
+    
+    .about-us-description {
+        width: 100%;
+    }
+    
+    .about-us-description h1 {
+        padding: 0.5em;
+        font-size: 2rem;
+    }
+    
+    .about-us-description p {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    
+  
+   
+}

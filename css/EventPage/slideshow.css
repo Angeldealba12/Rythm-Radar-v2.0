@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
@@ -11,6 +11,7 @@
 .mySlides {
   display: none;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {

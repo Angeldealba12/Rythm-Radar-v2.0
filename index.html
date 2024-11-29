@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="./css/home/stay-in-tune.css">
   <link rel="stylesheet" href="./css/home/merch-section.css">
   <link rel="stylesheet" href="./css/home/hero-banner.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -51,10 +57,10 @@
     <p class="hero-banner-title">Tune into the Rhythm</p>
     <p class="hero-banner-description">
       Discover and book tickets for the hottest concerts
-      <br />
+      <br />s
       and music festivals near you.
     </p>
-    <button>Explore Events</button>
+    <a href="./pages/eventsPage.html">Explore Events</a>
   </div>
 
   
@@ -72,39 +78,8 @@
     <div class="merch-title">
       <p>Rhythm Radar Merch</p>
     </div>
-    <div class="merch-cards">
-      <div class="merch-card">
-        <img src="./img/Merch/merch-01.jpg" alt="Concert Tee" />
-        <p>Concert Tee</p>
-        <div class="price-box">
-          <p>$24.99</p>
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="merch-card">
-        <img src="./img/Merch/merch-02.jpg" alt="Concert Tee" />
-        <p>Festival hoddie</p>
-        <div class="price-box">
-          <p>$24.99</p>
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="merch-card">
-        <img src="./img/Merch/merch-03.jpg" alt="Concert Tee" />
-        <p>Rhythm Radar Cap</p>
-        <div class="price-box">
-          <p>$24.99</p>
-          <button>Add to Cart</button>
-        </div>
-      </div>
-      <div class="merch-card">
-        <img src="./img/Merch/merch-04.jpg" alt="Concert Tee" />
-        <p>limited Edition Vinyl</p>
-        <div class="price-box">
-          <p>$24.99</p>
-          <button>Add to Cart</button>
-        </div>
-      </div>
+    <div class="merch-cards" id="merch-cards">
+      
     </div>
     <div class="view-all-merch">
       <a href="./pages/merchandising.html">View All Merch</a>
@@ -156,6 +131,7 @@
   </footer>
   <script src="./js/events.js"></script>
   <script src="./js/navbar.js"></script>
+  <script src="./js/merch.js"></script>
 </body>
 
 </html>

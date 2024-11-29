@@ -1,0 +1,41 @@
+.faq-section {
+    background-color: #111827;
+    padding: 2em;
+    color: white;
+}
+
+.faq-section h1 {
+    font-size: 2.5rem;
+    padding: 1em;
+    text-align: center;
+    color: #9333EA;
+}
+
+.faq-section h2 {
+    font-size: 1.5rem;
+    padding: 1em;
+    color: #a873dc;
+}
+
+.faq-section p {
+    font-size: 1.2rem;
+    padding: 0 2em 2em 2em;
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 750px) {
+    .faq-section h1 {
+        font-size: 2rem;
+        padding: 0.5em;
+    }
+    
+    .faq-section h2 {
+        font-size: 1.3rem;
+        padding: 0.5em;
+    }
+    
+    .faq-section p {
+        font-size: 1rem;
+        padding: 0 1em 1em 1em;
+    }
+}

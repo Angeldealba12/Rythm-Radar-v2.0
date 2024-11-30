@@ -1,10 +1,12 @@
 .music-blog-section {
-    padding: 1em;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    background-image: url(../../img/background-01.jpg);
+    background-position: center;
+    background-size: 500px;
 }
 
 .music-blog-section h1 {
@@ -111,7 +113,6 @@
     padding: 1em;
     display: flex;
     justify-content: space-around;
-
 }
 
 .user-picture-updaload>img {
@@ -141,7 +142,6 @@
     margin-top: 1em;
     padding: 1em;
     border-radius: 0.5em;
-    
 }
 
 .trending-topic {
@@ -153,4 +153,76 @@
 .trending-topic > p {
     margin-top: 1em;
     font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .music-blog-section>main {
+        width: 100%;
+    }
+
+    .aside-content {
+        width: 100%;
+    }
+
+    .comment-card-user-info>img {
+        width: 15%;
+    }
+
+    .like-comment-share>div {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .music-blog-section h1 {
+        font-size: 1.8rem;
+        padding: 0.5em;
+    }
+
+    .music-blog-form>h2 {
+        font-size: 1.3rem;
+    }
+
+    .form-buttoms>.add-image-btn,
+    .form-buttoms>.post-btn {
+        padding: 0.8em;
+        font-size: 0.9rem;
+    }
+
+    .user-picture-updaload {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .user-picture-updaload>img {
+        width: 90%;
+    }
+
+    .like-comment-share>div {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .music-blog-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .comment-card-user-info>img {
+        width: 20%;
+    }
+
+    .like-comment-share {
+        flex-wrap: wrap;
+        gap: 0.5em;
+    }
+
+    .like-comment-share>div {
+        width: 45%;
+    }
+
+    .trending-topic > p {
+        font-size: 1rem;
+    }
 }
